@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4AAA0C19A22540001AA1C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4AAA0B19A22540001AA1C8 /* Foundation.framework */; };
+		3E4AAA0E19A22540001AA1C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4AAA0D19A22540001AA1C8 /* CoreGraphics.framework */; };
+		3E4AAA1019A22540001AA1C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4AAA0F19A22540001AA1C8 /* UIKit.framework */; };
+		3E4AAA1619A22540001AA1C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4AAA1419A22540001AA1C8 /* InfoPlist.strings */; };
+		3E4AAA1819A22540001AA1C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4AAA1719A22540001AA1C8 /* main.m */; };
+		3E4AAA1C19A22540001AA1C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4AAA1B19A22540001AA1C8 /* AppDelegate.m */; };
+		3E4AAA1F19A22540001AA1C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4AAA1D19A22540001AA1C8 /* Main.storyboard */; };
+		3E4AAA2219A22540001AA1C8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4AAA2119A22540001AA1C8 /* FirstViewController.m */; };
+		3E4AAA2519A22540001AA1C8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4AAA2419A22540001AA1C8 /* SecondViewController.m */; };
+		3E4AAA2719A22540001AA1C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4AAA2619A22540001AA1C8 /* Images.xcassets */; };
+		3E4AAA2E19A22540001AA1C8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4AAA2D19A22540001AA1C8 /* XCTest.framework */; };
+		3E4AAA2F19A22540001AA1C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4AAA0B19A22540001AA1C8 /* Foundation.framework */; };
+		3E4AAA3019A22540001AA1C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4AAA0F19A22540001AA1C8 /* UIKit.framework */; };
+		3E4AAA3819A22540001AA1C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E4AAA3619A22540001AA1C8 /* InfoPlist.strings */; };
+		3E4AAA3A19A22540001AA1C8 /* SMiLELogisticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4AAA3919A22540001AA1C8 /* SMiLELogisticsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E4AAA3119A22540001AA1C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E4AAA0019A22540001AA1C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E4AAA0719A22540001AA1C8;
+			remoteInfo = SMiLELogistics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E4AAA0819A22540001AA1C8 /* SMiLELogistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMiLELogistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4AAA0B19A22540001AA1C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E4AAA0D19A22540001AA1C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3E4AAA0F19A22540001AA1C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3E4AAA1319A22540001AA1C8 /* SMiLELogistics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMiLELogistics-Info.plist"; sourceTree = "<group>"; };
+		3E4AAA1519A22540001AA1C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E4AAA1719A22540001AA1C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E4AAA1919A22540001AA1C8 /* SMiLELogistics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMiLELogistics-Prefix.pch"; sourceTree = "<group>"; };
+		3E4AAA1A19A22540001AA1C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E4AAA1B19A22540001AA1C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E4AAA1E19A22540001AA1C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E4AAA2019A22540001AA1C8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3E4AAA2119A22540001AA1C8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3E4AAA2319A22540001AA1C8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3E4AAA2419A22540001AA1C8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3E4AAA2619A22540001AA1C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3E4AAA2C19A22540001AA1C8 /* SMiLELogisticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMiLELogisticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4AAA2D19A22540001AA1C8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3E4AAA3519A22540001AA1C8 /* SMiLELogisticsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMiLELogisticsTests-Info.plist"; sourceTree = "<group>"; };
+		3E4AAA3719A22540001AA1C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E4AAA3919A22540001AA1C8 /* SMiLELogisticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMiLELogisticsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E4AAA0519A22540001AA1C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4AAA0E19A22540001AA1C8 /* CoreGraphics.framework in Frameworks */,
+				3E4AAA1019A22540001AA1C8 /* UIKit.framework in Frameworks */,
+				3E4AAA0C19A22540001AA1C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4AAA2919A22540001AA1C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4AAA2E19A22540001AA1C8 /* XCTest.framework in Frameworks */,
+				3E4AAA3019A22540001AA1C8 /* UIKit.framework in Frameworks */,
+				3E4AAA2F19A22540001AA1C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E4AA9FF19A22540001AA1C8 = {
+			isa = PBXGroup;
+			children = (
+				3E4AAA1119A22540001AA1C8 /* SMiLELogistics */,
+				3E4AAA3319A22540001AA1C8 /* SMiLELogisticsTests */,
+				3E4AAA0A19A22540001AA1C8 /* Frameworks */,
+				3E4AAA0919A22540001AA1C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E4AAA0919A22540001AA1C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4AAA0819A22540001AA1C8 /* SMiLELogistics.app */,
+				3E4AAA2C19A22540001AA1C8 /* SMiLELogisticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E4AAA0A19A22540001AA1C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E4AAA0B19A22540001AA1C8 /* Foundation.framework */,
+				3E4AAA0D19A22540001AA1C8 /* CoreGraphics.framework */,
+				3E4AAA0F19A22540001AA1C8 /* UIKit.framework */,
+				3E4AAA2D19A22540001AA1C8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E4AAA1119A22540001AA1C8 /* SMiLELogistics */ = {
+			isa = PBXGroup;
+			children = (
+				3E4AAA1A19A22540001AA1C8 /* AppDelegate.h */,
+				3E4AAA1B19A22540001AA1C8 /* AppDelegate.m */,
+				3E4AAA1D19A22540001AA1C8 /* Main.storyboard */,
+				3E4AAA2019A22540001AA1C8 /* FirstViewController.h */,
+				3E4AAA2119A22540001AA1C8 /* FirstViewController.m */,
+				3E4AAA2319A22540001AA1C8 /* SecondViewController.h */,
+				3E4AAA2419A22540001AA1C8 /* SecondViewController.m */,
+				3E4AAA2619A22540001AA1C8 /* Images.xcassets */,
+				3E4AAA1219A22540001AA1C8 /* Supporting Files */,
+			);
+			path = SMiLELogistics;
+			sourceTree = "<group>";
+		};
+		3E4AAA1219A22540001AA1C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4AAA1319A22540001AA1C8 /* SMiLELogistics-Info.plist */,
+				3E4AAA1419A22540001AA1C8 /* InfoPlist.strings */,
+				3E4AAA1719A22540001AA1C8 /* main.m */,
+				3E4AAA1919A22540001AA1C8 /* SMiLELogistics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E4AAA3319A22540001AA1C8 /* SMiLELogisticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E4AAA3919A22540001AA1C8 /* SMiLELogisticsTests.m */,
+				3E4AAA3419A22540001AA1C8 /* Supporting Files */,
+			);
+			path = SMiLELogisticsTests;
+			sourceTree = "<group>";
+		};
+		3E4AAA3419A22540001AA1C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E4AAA3519A22540001AA1C8 /* SMiLELogisticsTests-Info.plist */,
+				3E4AAA3619A22540001AA1C8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E4AAA0719A22540001AA1C8 /* SMiLELogistics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4AAA3D19A22540001AA1C8 /* Build configuration list for PBXNativeTarget "SMiLELogistics" */;
+			buildPhases = (
+				3E4AAA0419A22540001AA1C8 /* Sources */,
+				3E4AAA0519A22540001AA1C8 /* Frameworks */,
+				3E4AAA0619A22540001AA1C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMiLELogistics;
+			productName = SMiLELogistics;
+			productReference = 3E4AAA0819A22540001AA1C8 /* SMiLELogistics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E4AAA2B19A22540001AA1C8 /* SMiLELogisticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E4AAA4019A22540001AA1C8 /* Build configuration list for PBXNativeTarget "SMiLELogisticsTests" */;
+			buildPhases = (
+				3E4AAA2819A22540001AA1C8 /* Sources */,
+				3E4AAA2919A22540001AA1C8 /* Frameworks */,
+				3E4AAA2A19A22540001AA1C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E4AAA3219A22540001AA1C8 /* PBXTargetDependency */,
+			);
+			name = SMiLELogisticsTests;
+			productName = SMiLELogisticsTests;
+			productReference = 3E4AAA2C19A22540001AA1C8 /* SMiLELogisticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E4AAA0019A22540001AA1C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dotrural;
+				TargetAttributes = {
+					3E4AAA2B19A22540001AA1C8 = {
+						TestTargetID = 3E4AAA0719A22540001AA1C8;
+					};
+				};
+			};
+			buildConfigurationList = 3E4AAA0319A22540001AA1C8 /* Build configuration list for PBXProject "SMiLELogistics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E4AA9FF19A22540001AA1C8;
+			productRefGroup = 3E4AAA0919A22540001AA1C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E4AAA0719A22540001AA1C8 /* SMiLELogistics */,
+				3E4AAA2B19A22540001AA1C8 /* SMiLELogisticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E4AAA0619A22540001AA1C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4AAA2719A22540001AA1C8 /* Images.xcassets in Resources */,
+				3E4AAA1619A22540001AA1C8 /* InfoPlist.strings in Resources */,
+				3E4AAA1F19A22540001AA1C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4AAA2A19A22540001AA1C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4AAA3819A22540001AA1C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E4AAA0419A22540001AA1C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4AAA2519A22540001AA1C8 /* SecondViewController.m in Sources */,
+				3E4AAA1C19A22540001AA1C8 /* AppDelegate.m in Sources */,
+				3E4AAA2219A22540001AA1C8 /* FirstViewController.m in Sources */,
+				3E4AAA1819A22540001AA1C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E4AAA2819A22540001AA1C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4AAA3A19A22540001AA1C8 /* SMiLELogisticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E4AAA3219A22540001AA1C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E4AAA0719A22540001AA1C8 /* SMiLELogistics */;
+			targetProxy = 3E4AAA3119A22540001AA1C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E4AAA1419A22540001AA1C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4AAA1519A22540001AA1C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E4AAA1D19A22540001AA1C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4AAA1E19A22540001AA1C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E4AAA3619A22540001AA1C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E4AAA3719A22540001AA1C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E4AAA3B19A22540001AA1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E4AAA3C19A22540001AA1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E4AAA3E19A22540001AA1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMiLELogistics/SMiLELogistics-Prefix.pch";
+				INFOPLIST_FILE = "SMiLELogistics/SMiLELogistics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E4AAA3F19A22540001AA1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMiLELogistics/SMiLELogistics-Prefix.pch";
+				INFOPLIST_FILE = "SMiLELogistics/SMiLELogistics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E4AAA4119A22540001AA1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SMiLELogistics.app/SMiLELogistics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMiLELogistics/SMiLELogistics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SMiLELogisticsTests/SMiLELogisticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3E4AAA4219A22540001AA1C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SMiLELogistics.app/SMiLELogistics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SMiLELogistics/SMiLELogistics-Prefix.pch";
+				INFOPLIST_FILE = "SMiLELogisticsTests/SMiLELogisticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E4AAA0319A22540001AA1C8 /* Build configuration list for PBXProject "SMiLELogistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4AAA3B19A22540001AA1C8 /* Debug */,
+				3E4AAA3C19A22540001AA1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E4AAA3D19A22540001AA1C8 /* Build configuration list for PBXNativeTarget "SMiLELogistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4AAA3E19A22540001AA1C8 /* Debug */,
+				3E4AAA3F19A22540001AA1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E4AAA4019A22540001AA1C8 /* Build configuration list for PBXNativeTarget "SMiLELogisticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E4AAA4119A22540001AA1C8 /* Debug */,
+				3E4AAA4219A22540001AA1C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E4AAA0019A22540001AA1C8 /* Project object */;
+}
